@@ -20,5 +20,28 @@ Identify Data sources
 
 
 
-Total:
+# Todo
+
+Parrellelize downloads across bands and time
+
+Build directory with strucure:
+
+    Date 1
+    
+        Band 1
+        
+        Band 2
+        
+        ...
+        
+    Date 2
+    
+        Band 1
+        
+        Band 2
+        
+        ...
+        
+    ...
+
 
