@@ -14,7 +14,7 @@ Next, the pixel's coordinates are calculated from their scan angles using the al
 
 The image is masked to include only the contigous U.S.
 
-![alt text](data/resampled4.nc)
+![alt text](images/resampled-Copy1.tif)
 
 To Do: 
 
