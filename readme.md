@@ -9,7 +9,7 @@ To Do: Organize input and groud truth rasters together for a given time.
 Many tools are available to retreieve the GOES ABI data, which is available on public cloud storage. For now I am using [Goes2Go](https://github.com/blaylockbk/goes2go) as it is very simple to use, but I may need to write my own for my desired functionality. Images are stored in NetCDF format which contains many metadata such as the satellites position, angle of scan for each pixel, and more. 
 
 The first step is to downsample the image. 
-![alt text](images/raw.png)
+![alt text](images/raw.jpg)
 
 Next, the pixel's coordinates are calculated from their scan angles using the algorithim found [here](https://www.star.nesdis.noaa.gov/atmospheric-composition-training/python_abi_lat_lon.php). 
 
