@@ -6,7 +6,7 @@ Input data consists of sixteen-channel hypersepectral readings from the Geostati
 ### Data Collection and Preprocessing
 To Do: Organize input and groud truth rasters together for a given time.
 #### GOES ABI
-Many tools are available to retreieve the GOES ABI data, which is available on public cloud storage. For now I am using [Goes2Go](https://github.com/blaylockbk/goes2go) as it is very simple to use, but I may need to write my own for my desired functionality. Images are stored in NetCDF format which contains many metadata such as the satellites position, angle of scan for each pixel, and more. 
+Many tools are available to retreieve the GOES ABI data, which is available on public cloud storage. For now I am using [Goes2Go](https://github.com/blaylockbk/goes2go) as it is very simple to use, but I may need to write my own for my desired functionality. Images are stored in NetCDF format which contains many metadata such as the satellite's position, angle of scan for each pixel, and more. 
 
 The first step is to downsample the image. 
 ![alt text](images/raw.jpg)
